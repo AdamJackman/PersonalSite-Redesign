@@ -4,8 +4,9 @@
   background-color: #345;
   margin: 5px;
   margin-bottom: 2px;
-  padding: 20px;
-  height: 150px;
+  padding: 20px 20px 0 0;
+  min-height: 150px;
+  min-width: 230px;
   width: 25%;
   color: white;
   box-shadow: -2px 2px 1px #888;
@@ -13,7 +14,6 @@
 }
 
 .Project-image {
-
 }
 
 .Project-text {
@@ -22,15 +22,40 @@
 }
 
 .Project-header {
-  text-align: center;
   letter-spacing: 1px;
   font-size: large;
+  font-weight: normal;
   padding-bottom: 10px;
 }
 
 .Project-body {
   text-align: left;
-  letter-spacing: 0.15px;
-  font-size: small;
+  letter-spacing: 0.75px;
+  font-weight: lighter;
+  font-size: 14px;
+}
 
+.project-logo-1 {
+  animation: logo-spin infinite 20s linear;
+  height: 80px;
+}
+.project-logo-2 {
+  height: 80px;
+}
+.project-logo-3 {
+  height: 80px;
+}
+.project-logo-4 {
+  height: 80px;
+}
+.project-logo-5 {
+  height: 80px;
+}
+.project-logo-6 {
+  height: 80px;
+}
+
+@keyframes logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
 }

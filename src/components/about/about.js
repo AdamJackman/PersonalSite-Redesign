@@ -31,7 +31,7 @@ class About extends React.Component {
               <div className="Media-item btn-facebook Media-linkedIn"> LinkedIn </div>
               <div className="Media-item btn-adn Media-email"> Email </div>
             </div>
-            Test
+            This dead space means I actually need to build something to fill it... -___-
           </div>
         </div>
       </div>

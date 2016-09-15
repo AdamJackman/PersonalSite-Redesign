@@ -1,6 +1,8 @@
 .CurrentWork-container{
-  padding-top: 20px;
+  margin-top: 20px;
+  padding-bottom: 20px;
   margin-left: 7%;
+  box-shadow: -0.5px 1px 0.1px #DDD;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -9,7 +11,7 @@
 .CurrentWork-title {
   display: flex;
   flex-direction: row;
-  padding: 20px 20px 7px 20px;
+  padding: 0px 20px 7px 20px;
   margin-bottom: 0px;
   color: #000;
   letter-spacing: 5px;
@@ -23,7 +25,6 @@
   font-family: National,Helvetica Neue,Helvetica,Gill Sans,Arial,sans-serif;
   line-height: 25px;
   letter-spacing: normal;
-
 }
 
 .CurrentWork-current {
@@ -32,7 +33,7 @@
 }
 
 .CurrentWork-position {
-  padding-left: 180px;
+  padding-left: 185px;
   padding-bottom: 25px;
   color: #000;
   letter-spacing: 3px;
