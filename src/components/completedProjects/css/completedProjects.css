@@ -1,0 +1,6 @@
+.CompletedProjects-container {
+  display: flex;
+  justify-content: center;
+  flex-flow: wrap;
+  flex-direction: row;
+}

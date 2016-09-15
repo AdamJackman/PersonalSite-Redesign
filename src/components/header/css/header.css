@@ -1,0 +1,31 @@
+.Header-container {
+  height: 250px;
+  width: 100%;
+
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+  background-color: #2D2D2D;
+  color: #FDF3E7;
+}
+
+.Header-text {
+
+  vertical-align: middle;
+  align-self: center;
+  font-size: 64px;
+  letter-spacing: 8px;
+  font-weight: lighter;
+  text-shadow: -1px 1px #5F5F5F;
+}
+
+.Header-sub {
+  margin-top: 75px;
+  font-size: 16px;
+  letter-spacing: 8px;
+  font-weight: 800;
+  text-shadow: -1px 1px #5F5F5F;
+}

@@ -1,3 +1,36 @@
 .Project-box {
-    color : red
+  display: flex;
+
+  background-color: #345;
+  margin: 5px;
+  margin-bottom: 2px;
+  padding: 20px;
+  height: 150px;
+  width: 25%;
+  color: white;
+  box-shadow: -3px 3px 1px #444;
+  border-radius: 5px;
+}
+
+.Project-image {
+
+}
+
+.Project-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.Project-header {
+  text-align: center;
+  letter-spacing: 1px;
+  font-size: large;
+  padding-bottom: 10px;
+}
+
+.Project-body {
+  text-align: left;
+  letter-spacing: 0.15px;
+  font-size: small;
+
 }
