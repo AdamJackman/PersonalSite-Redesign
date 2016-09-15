@@ -4,3 +4,21 @@
   flex-flow: wrap;
   flex-direction: row;
 }
+
+.CompletedProjects-title {
+  letter-spacing: 18px;
+  align-self: center;
+  text-align: center;
+}
+
+.CompleteProjects-titleContainer{
+  height: auto;
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.CompletedProjects-section {
+    margin-bottom: 20px;
+}

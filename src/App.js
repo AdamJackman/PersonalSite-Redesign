@@ -1,7 +1,9 @@
 import React from 'react';
 
 import Header from './components/header/header.js'
+import About from './components/about/about.js'
 import CompletedProjects from './components/completedProjects/completedProjects.js'
+import CurrentWork from './components/currentWork/currentWork.js'
 
 import './App.css';
 /**
@@ -12,7 +14,9 @@ class App extends React.Component {
     return (
       <div className="App">
         <Header />
-        <CompletedProjects></CompletedProjects>
+        <About />
+        <CompletedProjects />
+        <CurrentWork />
       </div>
     );
   }
