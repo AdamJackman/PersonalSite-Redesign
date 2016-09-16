@@ -1,11 +1,19 @@
-.Project-box {
-  display: flex;
+a {
+  text-decoration: none;
+  color: white;
+}
 
-  background-color: #345;
+.Project-box {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  font-family: National,Helvetica Neue,Helvetica,Gill Sans,Arial,sans-serif;
+
+  background: linear-gradient(#345, #445);
   margin: 5px;
   margin-bottom: 2px;
-  padding: 20px 20px 0 0;
-  min-height: 150px;
+  padding: 5px 5px 5px 5px;
+  min-height: 200px;
   min-width: 230px;
   width: 25%;
   color: white;
@@ -13,45 +21,96 @@
   border-radius: 5px;
 }
 
-.Project-image {
-}
-
 .Project-text {
   display: flex;
   flex-direction: column;
+  height: 70%
 }
 
 .Project-header {
-  letter-spacing: 1px;
-  font-size: large;
-  font-weight: normal;
+  align-self: center;
+  letter-spacing: 2px;
+  font-size: 20px;
+  font-weight: lighter;
   padding-bottom: 10px;
+  height: 33%;
 }
 
 .Project-body {
+  padding: 0px 10% 0px 7%;
   text-align: left;
   letter-spacing: 0.75px;
   font-weight: lighter;
   font-size: 14px;
+  height:66%;
 }
 
-.project-logo-1 {
+.Project-btn-group {
+  display: flex;
+  flex-direction: row;
+  height: 30%;
+  margin-left: 5%;
+}
+
+.btn {
+  min-width: 45%;
+  height: 25px;
+  border-radius: 100px;
+  margin-top: 5px;
+  padding-bottom: 2px;
+  padding-top: 8px;
+  text-align: center;
+  vertical-align: bottom;
+  font-size: 14px;
+  font-weight: 100;
+  cursor: pointer;
+}
+
+.Project-btn-github {
+  background: linear-gradient(to right, #2D2D2D, #3E3E3E);
+  box-shadow: -0.25px 0.5px 1px #999;
+  letter-spacing: 1px;
+  margin-left: 5px;
+}
+
+.Project-btn-image {
+  background: linear-gradient(to right, #EDE3E7, #FEF4F8);
+  box-shadow: -0.25px 0.5px 1px #222;
+  letter-spacing: 1px;
+  font-weight: 300;
+  color: black;
+}
+
+.Project-btn-image:hover {
+  background: linear-gradient(to right, #c2c2c2, #FFFFFF);
+}
+.Project-btn-github:hover {
+  background: linear-gradient(to right, #0B0B0B, #3E3E3E)
+}
+
+.Project-logo-1 {
   animation: logo-spin infinite 20s linear;
+  height: 100%;
+  width: 100%;
+}
+.Project-logo-2 {
+  position: absolute;
+  display: none;
+  height: 100%;
+  width: 100%;
+}
+.Project-logo-3 {
+  height: 80px;
+  max-width: 160px;
+}
+.Project-logo-4 {
+  height: 40px;
+  max-width: 160px;
+}
+.Project-logo-5 {
   height: 80px;
 }
-.project-logo-2 {
-  height: 80px;
-}
-.project-logo-3 {
-  height: 80px;
-}
-.project-logo-4 {
-  height: 80px;
-}
-.project-logo-5 {
-  height: 80px;
-}
-.project-logo-6 {
+.Project-logo-6 {
   height: 80px;
 }
 
