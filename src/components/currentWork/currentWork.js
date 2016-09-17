@@ -1,16 +1,18 @@
 import React from 'react'
 
+import claraLogo from './content/claraLogo.png'
+
 import './css/currentWork.css'
+
 
 class CurrentWork extends React.Component {
   render() {
     return (
       <div className="CurrentWork-container">
-        <h1 className="CurrentWork-title">Clara
-          <p className="CurrentWork-current">- Current Position</p>
+        <h1 className="CurrentWork-title">
+          <img className="CurrentWork-companyLogo" src={claraLogo} alt="clara"/>
+          <p className="CurrentWork-current">- Software Engineer</p>
         </h1>
-        <div className="CurrentWork-position">Software Engineer</div>
-
         <div className="CurrentWork-tab">
           <div className="replaceWithImageTag" />
           <div className="CurrentWork-description">

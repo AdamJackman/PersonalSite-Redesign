@@ -11,12 +11,12 @@
 .CurrentWork-title {
   display: flex;
   flex-direction: row;
+  align-items:flex-start;
   padding: 0px 20px 7px 20px;
   margin-bottom: 0px;
   color: #000;
   letter-spacing: 5px;
   font-family: National,Helvetica Neue,Helvetica,Gill Sans,Arial,sans-serif;
-  height: 40px;
 }
 
 .CurrentWork-description {
@@ -28,6 +28,7 @@
 }
 
 .CurrentWork-current {
+  padding-top: 60px;
   padding-left: 5px;
   font-size: 16px;
 }
@@ -42,4 +43,8 @@
 
 .CurrentWork-para2 {
   padding-top: 15px;
+}
+.CurrentWork-companyLogo {
+  max-height: 175px;
+  max-width: 200px;
 }
