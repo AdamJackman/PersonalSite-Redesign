@@ -9,13 +9,13 @@ class Project extends React.Component {
     this.state = {img: false};
   };
   handleImage() {
-   this.setState({img: !this.state.secret});
+   this.setState({img: !this.state.img});
   };
   //<img src={this.props.img} className={"Project-logo-" + this.props.pos} alt="woopsie" />
   render(){
     let GithubButton = (this.props.git) ?
       <a href={this.props.git} rel={'external'} className="btn Project-btn-github">Source Code</a>:
-      undefined
+      <div className="prv"> Private Repo</div>
     return(
         <div className="Project-box">
           <div className="Project-text">
@@ -23,7 +23,6 @@ class Project extends React.Component {
             <div className="Project-body">{this.props.content}</div>
           </div>
           <div className="Project-btn-group">
-            <div className="btn Project-btn-image">Image</div>
             {GithubButton}
           </div>
         </div>

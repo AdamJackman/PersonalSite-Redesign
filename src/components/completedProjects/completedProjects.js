@@ -4,11 +4,11 @@ import Project from '../project/project.js'
 import './css/completedProjects.css'
 
 const pos1Title = "Personal Website";
-const pos1Text = "You are on it! Created with ES6 React.js. No bootstrap. No materialize. Just my css.";
+const pos1Text = "You are on it! Created with ES6 React.js. No bootstrap. No materialize. Just my own css.";
 const pos1Git = "https://github.com/AdamJackman/PersonalSite-Redesign";
 import pos1Img from '../../logo.svg'
 const pos2Title = "Braille Printer";
-const pos2Text = "I made a Braille Printer with 2 other guys from UofT. It won first place for our capstone project";
+const pos2Text = "I made a fully functional Braille Printer with 2 other guys from UofT. It won first place for our capstone project";
 const pos2Git = "https://github.com/AdamJackman/BraillePrinter";
 import pos2Img from './content/braille.jpg'
 const pos3Title = "Seeds";
@@ -24,7 +24,7 @@ const pos5Text = "Chrome extension to track songs that would periodically get si
 const pos5Git = "https://github.com/AdamJackman/RIPgrooveshark";
 import pos5Img from './content/ripapp.png'
 const pos6Title = "TLA";
-const pos6Text = "Personal project scripting business specific logic. Made my development team much more efficient.";
+const pos6Text = "Personal project used to automate business specific logic and tedious tasks. Made my development team much more efficient.";
 import pos6Img from './content/TLA.png'
 
 class CompletedProjects extends React.Component {

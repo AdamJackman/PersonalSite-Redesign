@@ -20,6 +20,9 @@ a {
   box-shadow: -2px 2px 1px #888;
   border-radius: 5px;
 }
+.Project-box:hover {
+  box-shadow: -5px 5px 5px #999;
+}
 
 .Project-text {
   display: flex;
@@ -64,6 +67,24 @@ a {
   font-size: 14px;
   font-weight: 100;
   cursor: pointer;
+}
+
+.prv {
+  color: white;
+  margin-top: 5px;
+  padding-bottom: 2px;
+  height: 25px;
+  padding-top: 8px;
+  text-align: center;
+  vertical-align: bottom;
+  font-size: 14px;
+  font-weight: 100;
+}
+.Project-btn-github {
+  background: linear-gradient(to right, #2D2D2D, #3E3E3E);
+  box-shadow: -0.25px 0.5px 1px #999;
+  letter-spacing: 1px;
+  margin-left: 5px;
 }
 
 .Project-btn-github {
