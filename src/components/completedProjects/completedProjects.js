@@ -4,7 +4,7 @@ import Project from '../project/project.js'
 import './css/completedProjects.css'
 
 const pos1Title = "Personal Website";
-const pos1Text = "You are on it! Created with ES6 React.js. No bootstrap. No materialize. Just my own css.";
+const pos1Text = "You are on it! Created with ES6 React.js (utilizing react-scripts). No bootstrap, No materialize, Just normal CSS.";
 const pos1Git = "https://github.com/AdamJackman/PersonalSite-Redesign";
 import pos1Img from '../../logo.svg'
 const pos2Title = "Braille Printer";

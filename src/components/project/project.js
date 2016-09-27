@@ -3,7 +3,6 @@ import React, {PropTypes} from 'react'
 import './css/project.css'
 
 class Project extends React.Component {
-  //<img src={this.props.img} className={"project-logo-" + this.props.pos} alt="woopsie" />
   constructor() {
     super();
     this.state = {img: false};
@@ -11,7 +10,6 @@ class Project extends React.Component {
   handleImage() {
    this.setState({img: !this.state.img});
   };
-  //<img src={this.props.img} className={"Project-logo-" + this.props.pos} alt="woopsie" />
   render(){
     let GithubButton = (this.props.git) ?
       <a href={this.props.git} rel={'external'} className="btn Project-btn-github">Source Code</a>:
