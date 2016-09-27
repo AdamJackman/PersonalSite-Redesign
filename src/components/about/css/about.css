@@ -45,11 +45,18 @@
   padding: 15px;
   margin: 15px;
   min-height: 15px;
+  max-height: 150px;
   min-width: 150px;
+  max-width: 150px;
   box-shadow: -1px 1px 1px #EEE;
   border-radius: 7px;
   letter-spacing: 5px;
   font-weight: 100;
+}
+
+.social-img {
+  height: 150px;
+  width: 150px;
 }
 
 .secret {
