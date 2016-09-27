@@ -17,7 +17,7 @@ class CurrentWork extends React.Component {
             <p className="CurrentWork-current">- Software Engineer</p>
           </h1>
           <div className="CurrentWork-tab">
-            <div className="replaceWithImageTag"><img src={home} alt="stock home"/></div>
+            <div className="CurrentWork-imageDiv"><img className="CurrentWork-img" src={home} alt="stock home"/></div>
             <div className="CurrentWork-description">
               <div className="CurrentWork-para1">
               At Clara we are trying to revolutionize the mortgage process.<br />

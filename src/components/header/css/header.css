@@ -12,8 +12,13 @@
   color: #FDF3E7;
 }
 
-.Header-text {
+@media (max-width:640px) {
+  .Header-container {
+    max-height: 15%;
+  }
+}
 
+.Header-text {
   vertical-align: middle;
   align-self: center;
   font-size: 64px;
@@ -22,10 +27,26 @@
   text-shadow: -1px 1px #5F5F5F;
 }
 
+@media (max-width:640px) {
+  .Header-text {
+    font-size: 32px;
+    letter-spacing: normal;
+    font-weight: 650;
+    text-align: center;
+  }
+}
+
 .Header-sub {
   margin-top: 75px;
   font-size: 16px;
   letter-spacing: 8px;
   font-weight: 800;
   text-shadow: -1px 1px #5F5F5F;
+}
+
+@media (max-width:640px) {
+  .Header-sub {
+    margin: 0 0 0 0;
+    align-self: center;
+  }
 }
