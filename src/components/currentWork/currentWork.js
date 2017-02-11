@@ -1,7 +1,7 @@
 import React from 'react'
 
 import claraLogo from './content/claraLogo.png'
-import home from './content/homeShrunk.jpg'
+import home from './content/adamHouse.jpg'
 
 import './css/currentWork.css'
 
@@ -20,14 +20,16 @@ class CurrentWork extends React.Component {
             <div className="CurrentWork-imageDiv"><img className="CurrentWork-img" src={home} alt="stock home"/></div>
             <div className="CurrentWork-description">
               <div className="CurrentWork-para1">
-              At Clara we are trying to revolutionize the mortgage process.<br />
-              As a tech company this is being done through smart use of systems that we built from the ground up for just this purpose.</div>
-              <div className="CurrentWork-para2">
-                That said and done though. <br />
-                We care deeply about someone trying to buy their dream house. <br />
-                We care deeply about the experience and frustrations of our in-house loan origination team. <br />
+                At Clara we know how important and influential a home is in life. <br />
+                We are a diverse group of experts putting our heads together trying <br />
+                to make getting that house the easiest and cheapest process possible. <br />
                 <br />
-                Every day we come in and try to make those experiences better.
+                For me this involves building tech that will help build an efficient process, <br />
+                share context between the team, automate work, fact check the team <br />
+                and promote the best and most affordable options for the borrower <br />
+                <br />
+                Check out our reviews on Zillow: <a href={"https://www.zillow.com/lender-profile/marketing282/"} rel={'external'} className="CurrentWork-link">here</a><br /><br />
+                Check out our blog: <a href={"https://clara.com/blog/"} rel={'external'} className="CurrentWork-link">here</a><br />
               </div>
             </div>
           </div>

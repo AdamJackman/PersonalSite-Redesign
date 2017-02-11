@@ -1,6 +1,6 @@
 import React from 'react';
 
-import me from './content/portrait.png'
+import me from './content/adam.jpg'
 import github from './content/otherGithub.svg'
 import linkedIn from './content/linkedInColour.svg'
 import gmail from './content/gmail.svg'
