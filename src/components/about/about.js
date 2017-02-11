@@ -10,20 +10,12 @@ import './css/about.css'
 import './css/social.css'
 
 class About extends React.Component {
-  constructor() {
-    super();
-    this.state = {secret: false};
-  };
-  handleClick() {
-   this.setState({secret: !this.state.secret});
-  };
   render(){
     return (
       <div className="About-container">
         <img
-          className={this.state.secret? "About-img secret": "About-img"}
+          className="About-img"
           src={me}
-          onClick={this.handleClick.bind(this)}
           alt="me"/>
         <div className="container">
           <div className="About-header">Welcome to my corner of the internet</div>

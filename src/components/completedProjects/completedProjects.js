@@ -3,6 +3,7 @@ import Project from '../project/project.js'
 
 import './css/completedProjects.css'
 
+// If I ever add a reasonable backend server these will be responded by the backend
 const pos1Title = "Personal Website";
 const pos1Text = "You are on it! Created with ES6 React.js (utilizing react-scripts). No bootstrap, No materialize, Just normal CSS.";
 const pos1Git = "https://github.com/AdamJackman/PersonalSite-Redesign";

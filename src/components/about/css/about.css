@@ -30,7 +30,7 @@
 
 .About-header {
   font-size: 32px;
-  color: #66ddff;
+  color: #0375B4;
 }
 
 @media (max-width:640px) {
@@ -104,13 +104,4 @@
 .social-img {
   height: 150px;
   width: 150px;
-}
-
-.secret {
-  animation: spin 0.01s linear infinite;
-}
-
-@keyframes spin {
-    0% { transform: rotate(0deg); }
-    100% { transform: rotate(360deg); }
 }
