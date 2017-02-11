@@ -5,31 +5,30 @@ import './css/completedProjects.css'
 
 // If I ever add a reasonable backend server these will be responded by the backend
 const pos1Title = "Personal Website";
-const pos1Text = "You are on it! Created with ES6 React.js (utilizing react-scripts). No bootstrap, No materialize, Just normal CSS.";
+const pos1Text = "You’re on it! Written and developed in React.js this site holds my portfolio. I recently added Docker to allow easy redeploys.";
 const pos1Git = "https://github.com/AdamJackman/PersonalSite-Redesign";
 import pos1Img from '../../logo.svg'
 const pos2Title = "Braille Printer";
-const pos2Text = "I made a fully functional Braille Printer with 2 other guys from UofT. It won first place for our capstone project";
+const pos2Text = "Created a fully functional Braille printer for a fraction of the cost of on market alternatives. Won first place in the UofT capstone project. (2015)";
 const pos2Git = "https://github.com/AdamJackman/BraillePrinter";
 import pos2Img from './content/braille.jpg'
 const pos3Title = "Seeds";
-const pos3Text = "I do a lot of personal projects. I've been making seeds to bootstrap new projects on a good stack.";
+const pos3Text = "Flexible project seeds help bootstrap new creations. I build seeds to avoid unnecessary work in the future.";
 const pos3Git = "https://github.com/AdamJackman/Finagle-Postgres-Slick-3.1-Seed";
 import pos3Img from './content/github.jpg';
 const pos4Title = "Password Manager";
-const pos4Text = "It creates strong reuseable site specific passwords from a simple input. Doesn't even need to save a hashed password";
+const pos4Text = "My first personal project. A chrome extension that transforms your 1 password into a unique password for each website you visit.";
 const pos4Git = "https://github.com/AdamJackman/OnePassword";
 import pos4Img from './content/oneWord.jpg'
 const pos5Title = "RIP Grooveshark";
-const pos5Text = "Chrome extension to track songs that would periodically get silently removed from your Grooveshark playlists.";
+const pos5Text = "Chrome extension that tracked grooveshark playlists. Detected and alerted of missing (flagged) songs.";
 const pos5Git = "https://github.com/AdamJackman/RIPgrooveshark";
 import pos5Img from './content/ripapp.png'
 const pos6Title = "TLA";
-const pos6Text = "Personal project used to automate business specific logic and tedious tasks. Made my development team much more efficient.";
+const pos6Text = "AHK Hotkey project with inbuilt business logic for Paymentus. Significantly enhances efficiency of development team.";
 import pos6Img from './content/TLA.png'
 
 class CompletedProjects extends React.Component {
-  //render
   render(){
     return(
     <div className="CompletedProjects-section">
