@@ -44,9 +44,8 @@
   text-shadow: -1px 1px #5F5F5F;
 }
 
-@media (max-width:640px) {
+@media (max-width:1200px) {
   .Header-sub {
-    margin: 0 0 0 0;
-    align-self: center;
+    display: none;
   }
 }

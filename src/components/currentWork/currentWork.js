@@ -13,8 +13,10 @@ class CurrentWork extends React.Component {
         <h1 className="CurrentWork"> Current Work: </h1>
         <div className="CurrentWork-container">
           <h1 className="CurrentWork-title">
-            <img className="CurrentWork-companyLogo" src={claraLogo} alt="clara"/>
-            <p className="CurrentWork-current">- Software Engineer</p>
+            <div className="CurrentWork-logo-container">
+              <img className="CurrentWork-companyLogo" src={claraLogo} alt="clara"/>
+            </div>
+            <p className="CurrentWork-current">- Full Stack Software Engineer</p>
           </h1>
           <div className="CurrentWork-tab">
             <div className="CurrentWork-imageDiv"><img className="CurrentWork-img" src={home} alt="stock home"/></div>
@@ -24,12 +26,14 @@ class CurrentWork extends React.Component {
                 We are a diverse group of experts putting our heads together trying <br />
                 to make getting that house the easiest and cheapest process possible. <br />
                 <br />
+
                 For me this involves building tech that will help build an efficient process, <br />
                 share context between the team, automate work, fact check the team <br />
                 and promote the best and most affordable options for the borrower <br />
                 <br />
-                Check out our reviews on Zillow: <a href={"https://www.zillow.com/lender-profile/marketing282/"} rel={'external'} className="CurrentWork-link">here</a><br /><br />
-                Check out our blog: <a href={"https://clara.com/blog/"} rel={'external'} className="CurrentWork-link">here</a><br />
+                <div className="work-link"> Check out the Clara website: <a href={"https://www.clara.com"} rel={'external'} className="CurrentWork-link">here</a></div>
+                <div className="work-link"> Check out our reviews on Zillow: <a href={"https://www.zillow.com/lender-profile/claralending/"} rel={'external'} className="CurrentWork-link">here</a></div>
+                <div className="work-link"> Check out our blog: <a href={"https://clara.com/blog/"} rel={'external'} className="CurrentWork-link">here</a></ div>
               </div>
             </div>
           </div>
