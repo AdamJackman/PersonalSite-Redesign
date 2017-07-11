@@ -9,7 +9,6 @@ COPY package.json /usr/src/app/package.json
 
 RUN npm install
 RUN npm install -g pushstate-server
-RUN npm build
-COPY build /usr/src/app/build
+RUN npm run build
 
 CMD ["/usr/local/bin/pushstate-server", "build", "80"]
