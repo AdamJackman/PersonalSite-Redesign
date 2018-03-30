@@ -3,7 +3,6 @@ import React from 'react';
 import me from './content/adam.jpg'
 import github from './content/otherGithub.svg'
 import linkedIn from './content/linkedInColour.svg'
-import twitter from './content/twitterColour.svg'
 
 import './css/about.css'
 import './css/social.css'
