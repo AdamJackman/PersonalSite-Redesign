@@ -1,9 +1,6 @@
 import React from 'react'
 
-import claraLogo from './content/claraLogo.png'
-import home from './content/adamHouse.jpg'
-
-import './css/currentWork.css'
+import './css/CurrentWork.css'
 
 
 class CurrentWork extends React.Component {
@@ -16,7 +13,7 @@ class CurrentWork extends React.Component {
             <div className="CurrentWork-logo-container">
               <img className="CurrentWork-companyLogo" src={claraLogo} alt="clara"/>
             </div>
-            <p className="CurrentWork-current">- Full Stack Software Engineer</p>
+            <p className="CurrentWork-Current">- Full Stack Software Engineer</p>
           </h1>
           <div className="CurrentWork-tab">
             <div className="CurrentWork-imageDiv"><img className="CurrentWork-img" src={home} alt="stock home"/></div>

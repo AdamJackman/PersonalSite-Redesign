@@ -1,0 +1,115 @@
+.PreviousWork {
+  margin: 40px 0 0 2%;
+}
+
+.PreviousWork-section {
+  padding-left: 5px;
+  margin-left: 7%;
+  box-shadow: -0.5px 1px 0.1px #DDD;
+}
+
+@media (max-width: 960px) {
+  .PreviousWork-section {
+    margin-left: 0%;
+  }
+}
+
+.PreviousWork-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.PreviousWork-title {
+  display: flex;
+  flex-direction: row;
+  align-items:flex-start;
+  padding: 0px 20px 7px 20px;
+  margin-top: 0;
+  margin-bottom: 0px;
+  color: #000;
+  letter-spacing: 5px;
+  font-family: National,Helvetica Neue,Helvetica,Gill Sans,Arial,sans-serif;
+}
+
+@media (max-width: 960px) {
+  .PreviousWork-title {
+    flex-direction: column;
+    padding: 0 0 0 0;
+  }
+}
+
+.PreviousWork-tab {
+  display: flex;
+  flex-direction: row;
+  margin-right: 20px
+}
+
+@media (max-width: 960px) {
+  .PreviousWork-tab {
+    flex-direction: column;
+    margin-right: 0px;
+  }
+  .PreviousWork-img {
+    margin-left: 5%;
+    max-width: 300px;
+    align-self: center;
+  }
+}
+.PreviousWork-img {
+  padding: 7px;
+  max-height: 350px;
+  filter: grayscale(25%);
+  box-shadow: -1px 1px 1px #EEE;
+  border-radius: 3px;
+}
+
+.PreviousWork-description {
+  margin-left: 2%;
+  font-size: 16px;
+  font-family: National,Helvetica Neue,Helvetica,Gill Sans,Arial,sans-serif;
+  line-height: 25px;
+  letter-spacing: normal;
+}
+
+.PreviousWork-Previous {
+  padding-top: 60px;
+  padding-left: 5px;
+  font-size: 16px;
+}
+@media (max-width: 960px) {
+  .PreviousWork-Previous {
+    padding: 0 0 0 15px;
+  }
+}
+
+.PreviousWork-position {
+  padding-left: 185px;
+  padding-bottom: 25px;
+  color: #000;
+  letter-spacing: 3px;
+  font-family: National,Helvetica Neue,Helvetica,Gill Sans,Arial,sans-serif;
+}
+
+.PreviousWork-para2 {
+  padding-top: 15px;
+}
+
+.PreviousWork-logo-container {
+  height: 100px;
+  overflow: hidden;
+}
+
+.PreviousWork-companyLogo {
+  max-height: 175px;
+  max-width: 200px;
+}
+
+.PreviousWork-link {
+  color: #0375B4;
+}
+
+.work-link {
+  letter-spacing: 1px;
+  margin: 8px;
+}
