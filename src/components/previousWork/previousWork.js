@@ -3,7 +3,7 @@ import React from 'react'
 import claraLogo from './content/claraLogo.png'
 import home from './content/adamHouse.jpg'
 
-import './css/PreviousWork.css'
+import './css/previousWork.css'
 
 
 class PreviousWork extends React.Component {

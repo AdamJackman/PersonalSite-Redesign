@@ -20,10 +20,9 @@ class About extends React.Component {
           />
         </div>
         <div className="container">
-          <div className="About-header">Welcome to my corner of the internet</div>
+          <div className="About-header">Welcome</div>
           <div className="About-body">
-            This site exists to hold a portfolio of my current and on-going work.<br />
-            I hope you enjoy your stay. Feel free to contact me with any questions or bugs.<br />
+            I'm Adam. I try to make systems that make sense. <br/>
             <div className="About-media">
               <a href="https://github.com/AdamJackman" rel={'external'}>
                 <div className="Media-item btn-github Media-github">
@@ -31,8 +30,9 @@ class About extends React.Component {
                 </div>
               </a>
               <a href="https://www.linkedin.com/in/adamjackman" rel={'external'}><div className="Media-item btn-facebook Media-linkedIn"><img className="social-img" src={linkedIn} alt="LinkedIn"/></div></a>
-              <a href="https://twitter.com/jackmanadam" rel={'external'}><div className="Media-item btn-twitter Media-twitter"> <img className="social-img" src={twitter} alt="Twitter" /></div></a>
+
             </div>
+            Below is a summary of the systems I have been working on so far. <br/>
           </div>
         </div>
       </div>

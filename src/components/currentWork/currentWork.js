@@ -1,6 +1,9 @@
 import React from 'react'
 
-import './css/CurrentWork.css'
+import logo from './content/sofi-logo.svg'
+import grad from './content/grad.jpg'
+
+import './css/currentWork.css'
 
 
 class CurrentWork extends React.Component {
@@ -11,26 +14,24 @@ class CurrentWork extends React.Component {
         <div className="CurrentWork-container">
           <h1 className="CurrentWork-title">
             <div className="CurrentWork-logo-container">
-              <img className="CurrentWork-companyLogo" src={claraLogo} alt="clara"/>
+              <img className="CurrentWork-companyLogo" src={logo} alt="sofi"/>
             </div>
-            <p className="CurrentWork-Current">- Full Stack Software Engineer</p>
+            <p className="CurrentWork-Current">- Senior Software Engineer</p>
           </h1>
           <div className="CurrentWork-tab">
-            <div className="CurrentWork-imageDiv"><img className="CurrentWork-img" src={home} alt="stock home"/></div>
+            <div className="CurrentWork-imageDiv"><img className="CurrentWork-img" src={grad} alt="graduation"/></div>
             <div className="CurrentWork-description">
               <div className="CurrentWork-para1">
-                At Clara we know how important and influential a home is in life. <br />
-                We are a diverse group of experts putting our heads together trying <br />
-                to make getting that house the easiest and cheapest process possible. <br />
+                Started working at SoFi as part of the an acquisition of Clara Lending. <br />
+                Sofi has huge goals for 2018. The Clara team joins as a cohesive unit with user empathy and operations efficiency top of mind. <br />
                 <br />
-
-                For me this involves building tech that will help build an efficient process, <br />
-                share context between the team, automate work, fact check the team <br />
-                and promote the best and most affordable options for the borrower <br />
+                At Sofi we will be applying the same lessons learnt at Clara to build systems to make operators as efficient as possible.<br />
+                This will lead to a better experience for our employees and faster processing for the end users.<br />
                 <br />
-                <div className="work-link"> Check out the Clara website: <a href={"https://www.clara.com"} rel={'external'} className="CurrentWork-link">here</a></div>
-                <div className="work-link"> Check out our reviews on Zillow: <a href={"https://www.zillow.com/lender-profile/claralending/"} rel={'external'} className="CurrentWork-link">here</a></div>
-                <div className="work-link"> Check out our blog: <a href={"https://clara.com/blog/"} rel={'external'} className="CurrentWork-link">here</a></ div>
+                With ambitious goals and our new CEO Anthony Noto coming onboard this year this is an exciting time to be at SoFi. <br/>
+                <br />
+                <div className="work-link"> Check out the Sofi website: <a href={"https://www.sofi.com"} rel={'external'} className="CurrentWork-link">here</a></div>
+                <div className="work-link"> Check out our reviews on Zillow: <a href={"https://www.zillow.com/lender-profile/SoFiLendingCorp/"} rel={'external'} className="CurrentWork-link">here</a></div>
               </div>
             </div>
           </div>

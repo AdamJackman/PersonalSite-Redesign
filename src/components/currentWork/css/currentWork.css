@@ -59,6 +59,7 @@
 .CurrentWork-img {
     padding: 7px;
     max-height: 350px;
+    max-width: 475px;
     filter: grayscale(25%);
     box-shadow: -1px 1px 1px #EEE;
     border-radius: 3px;
@@ -101,7 +102,7 @@
 }
 
 .CurrentWork-companyLogo {
-    max-height: 175px;
+    height: 115px;
     max-width: 200px;
 }
 

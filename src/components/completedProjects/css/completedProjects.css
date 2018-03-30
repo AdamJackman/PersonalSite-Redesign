@@ -3,6 +3,7 @@
   justify-content: center;
   flex-flow: wrap;
   flex-direction: row;
+  margin-top: 15px;
 }
 
 .CompletedProjects-title {
